@@ -7,6 +7,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link href='/favicon.ico' rel='shortcut icon' type="image/x-icon">
 	<link href="main.css" type="text/css" rel="stylesheet" media="screen, projection" />
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300,400' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/jquery.1.10.2.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<link rel="canonical" href="http://untap.no/" />
@@ -14,24 +15,25 @@
 </head>
 <body>
 	<!-- HTML Markup for Top Navigation Menu -->	
-	<nav>
-		<ul>
-			<li><a href="#" class="icon icon-menu" id="btn-menu">Menu</a></li>
-			<li id="logo"><a href="/">Untap.no</a></li>
-			<li><a href="#">Logg inn</a></li>
-			<li><a href="#">Søk</a></li>
+	<header>
+		<ul class="clearfix">
+			<li><a href="#" class="icon icon-menu" id="btn-menu">Menu</a></li><!--
+			--><li id="logo"><a href="/"><img src="img/logo.png" alt="untap.no logo" width="150" /></a></li><!--
+			--><li class="right"><a href="#">Logg inn</a></li><!--
+			--><li><a href="#">Søk</a></li>
 		</ul>
-	</nav>
+	</header>
 	
 	<article class="container">
-		<h1>UNTAP.NO</h1>
-		<p>Dette skal bli en <a href="#">FET nettbutikk</a></p>
-		
+		<section>
+			<h1>UNTAP.NO</h1>
+			<p>Dette skal bli en <a href="#">FET nettbutikk</a></p>
+		</section>
 		<aside>Handlevogn</aside>
 	</article>
 	
 	<!-- HTML Markup for Sidebar Slide Out Menu -->
-	<div id="sideNav">
+	<nav id="sideNav">
 		<ul>
 			<li class="searchForm"><a href="#" class="icon icon-search"><span><input type="text" placeholder="Search" class="search" /></span></a></li>
 			<li><a href="#" class="icon icon-home"><span>Home</span></a></li>
@@ -48,6 +50,6 @@
 				</ul>			
 			</li>
 		</ul>	
-	</div>
+	</nav>
 </body>
 </html>
