@@ -17,7 +17,6 @@ $(function () {
 				} else {
 					GNmenu.toggleMenu();												
 				}
-				
 			});
 
 			// only do all this if it's desktop
